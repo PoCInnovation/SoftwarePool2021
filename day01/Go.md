@@ -312,10 +312,14 @@ type Pilot struct {
 
 ```go
 package main
-import "fmt"
+
+import (
+   "fmt"
+   "SoftwareGoDay1/humanity"
+)
 
 func main() {
-    fmt.Println(&Pilot{&Human{"Jason", 10, "Fr"}})
+    fmt.Println(&humanity.Pilot{&humanity.Human{"Jason", 10, "Fr"}})
 }
 ```
 
