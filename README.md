@@ -14,8 +14,8 @@ Des intervenants extérieurs viendront aussi apporter leur expériences du domai
 
 Vous aurez le choix entre le Go ou le Typescript, ce sont deux langages très prisés des développeurs du moment. Vous aurez plus de détails sur les spécificités de chacun lors de la piscine et bien sûr, vous en découvrirez plus au fil des jours.
 
- - [Go](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/Software/day01/Go.md)
- - [Typescript](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/Software/day01/Typescript.md)
+ - [Go](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/day01/Go.md)
+ - [Typescript](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/day01/Typescript.md)
 
 ## Authors
  - [Tom Chauveau](https://github.com/TomChv)
