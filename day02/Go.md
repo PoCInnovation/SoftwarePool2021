@@ -62,14 +62,14 @@ Voici un example de comment organiser vos routes
 En HTTP, les paramètres de votre demande peuvent être exprimés à différents endroits:
 `body`, `parameter`, `query`, `cookie` & `header`
 
-- Créez 5 routes qui prendront un message dans l'endroit que traite la route & le renverront:
+- Créez 5 routes qui prendront un `message` dans l'endroit que traite la route & le renverront:
   - **GET** `/repeat-my-query`
   - **GET** `/repeat-my-param/:message`
   - **POST** `/repeat-my-body`
   - **GET** `/repeat-my-header`
   - **GET** `/repeat-my-cookie`
 
-> Pour chacune des routes, si le message n'est pas présent renvoyez un StatusBadRequest.
+> Pour chacune des routes, si le `message` n'est pas présent renvoyez un StatusBadRequest.
 
 ### **Ressources**
 - [Gin Examples](https://github.com/gin-gonic/gin#api-examples)
