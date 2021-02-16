@@ -17,6 +17,15 @@ Vous aurez le choix entre le Go ou le Typescript, ce sont deux langages très pr
  - [Go](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/day01/Go.md)
  - [Typescript](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/day01/Typescript.md)
 
+## :radio_button: Day 2 - Les serveurs HTTP
+
+Les bases étant maitrisées, il est temps d'attaquer la plaque tournante du développement web avec les serveurs http.
+
+Vous allez apprendre les principaux concepts du web, la construction d'une API mais aussi des notions basiques d'architectures.
+
+- [Go](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/day02/Go.md)
+ - [Typescript](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/day02/Typescript.md)
+
 ## Authors
  - [Tom Chauveau](https://github.com/TomChv)
  - [Paul Monnery](https://github.com/PaulMonnery)
