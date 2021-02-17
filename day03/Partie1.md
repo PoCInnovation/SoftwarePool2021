@@ -37,7 +37,7 @@ Voici les informations à remplir :
 
 Vous devriez obtenir le résultat suivant :
 
-![Database example on datagrip](https://github.com/PoCInnovation/PoolSoftware2021/blob/master/.github/assets/software-day3-database-example.png)
+![Database example on datagrip](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/.github/assets/software-day3-database-example.png)
 
 ### SQL IDE Online
 
