@@ -79,7 +79,7 @@ Une fois votre classe créée, il faut la rendre utilisable par TypeORM.
 Pour cela :
  - Votre classe `Developer` doit hériter des propriétés de la classe `BaseEntity`
  - Ajoutez le décorateur `@Entity` sur votre classe.
- - Définissez vos attributs comme étant des colonnes grâce aux décorateurs `@Columns`
+ - Définissez vos attributs comme étant des colonnes grâce au décorateur `@Column`
 
 :warning: L'id est une colonne spéciale dite `Primaire`, utilisez un décorateur spécial qui va _auto générer_ un `uuid`.
 
