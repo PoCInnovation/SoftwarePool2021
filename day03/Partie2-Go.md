@@ -107,7 +107,7 @@ Créer un fichier `.env` dans lequel vous allez mettre les variables d'environne
 
 - Créer un package `database`, nous y gérerons notre connexion et nos appels à notre DB.
 - Créer un fichier `Database.go` & une struct `Database` avec les champs suivants:
-  - `DB`, un pointeur va une db GORM.
+  - `DB`, un pointeur vers une db GORM.
   - Les variables nécessaire à la configuration de votre db.
 
 > Il vous faudra garder aussi les informations sur la DB contenue dans votre fichier `.env`, récupérées depuis l'environnement.
@@ -128,8 +128,6 @@ Créer un fichier `.env` dans lequel vous allez mettre les variables d'environne
 - Appeler cette méthode dans votre main.
   - Si l'opération réussie, écrivez : `Database <nom de la db> is ready`.
   - Si l'opération échoue, écrivez : `Failed to initialize database: <raison de l'échec>`.
-
-TODO: Faire le docker-compose ??
 
 > Vous pouvez également vous connecter à votre base de données grâce à Datagrip et voir votre table nouvellement créée.
 
