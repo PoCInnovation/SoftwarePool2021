@@ -45,7 +45,7 @@ Connectez-vous à la base de donnée postgresql puis dans la catégorie `File`, 
 
 Vous devriez obtenir le résultat suivant :
 
-![sql ide online](https://github.com/PoCInnovation/PoolSoftware2021/blob/master/.github/assets/software-day3-sql-ide.png)
+![sql ide online](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/.github/assets/software-day3-sql-ide.png)
 
 ### Let's code
 
