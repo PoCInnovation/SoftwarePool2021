@@ -26,6 +26,12 @@ Vous allez apprendre les principaux concepts du web, la construction d'une API m
 - [Go](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/day02/Go.md)
  - [Typescript](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/day02/Typescript.md)
 
+## :package: Day 3 - Les bases de données
+
+Personne ne veut perdre les données de ses utilisateurs à chaque redémarrage de son API, vous allez maintenant voir une méthode pour stocker vos données. Vous découvrirez les bases de données relationnelles, le SQL et les ORM disponibles pour se faciliter la vie in-code.
+
+- [SQL](https://github.com/PoCInnovation/Pool2021/blob/master/day03/Partie1.md)
+
 ## Authors
  - [Tom Chauveau](https://github.com/TomChv)
  - [Paul Monnery](https://github.com/PaulMonnery)
