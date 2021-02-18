@@ -64,7 +64,7 @@ var APISECRET = hex.EncodeToString([]byte("une-cle-de-32-bytes-de-long-là!"))
 - Créez une route **POST** `/singin-session`
   - Prend un `body` contenant l'`email` et le `password` de l'utilisateur
   - Si les identifiants matchent:
-      * Cryptez l'email grâce à la fonction du package `softcrypto` des ressources du jour.
+      * Cryptez l'email grâce à la fonction du package `softcrypto` des [ressources](resources/part2-exo1-go) du jour.
       * renvoie la string "User successfully logged in !" et dans les header de la réponse, un `cookie` contenant l'email crypté.
   - Si aucun message n'est donné ou que les identifiants ne matchent pas
     - Définir le statut 400
@@ -204,6 +204,8 @@ var UsersOAuth = []UserOAuth{}
 
 **ATTENTION** : si l'id de l'utilisateur existe déjà en db, vous devez obligatoirement renvoyer ses informations plutôt que créer un nouvel utilisateur avec le même id à chaque fois
 
+**RESSOURCES :**
+ - [OAuth2](https://github.com/golang/oauth2)
 
 > Pour plus d'infos sur le fonctionnement de oauth2 avec google, [voilà comment l'utiliser](https://pkg.go.dev/golang.org/x/oauth2/google)
 
