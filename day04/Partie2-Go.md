@@ -61,7 +61,7 @@ var APISECRET = hex.EncodeToString([]byte("une-cle-de-32-bytes-de-long-là!"))
     - Définir le statut 400
     - Renvoyer `Bad Request`
 
-- Créez une route **POST** `/singin-session`
+- Créez une route **POST** `/signin-session`
   - Prend un `body` contenant l'`email` et le `password` de l'utilisateur
   - Si les identifiants matchent:
       * Cryptez l'email grâce à la fonction du package `softcrypto` des [ressources](resources/part2-exo1-go) du jour.
@@ -129,7 +129,7 @@ var APISECRET = []byte(/*votre clé ici */)
 
 - Créez une fonction qui reçoit un token et compare dans la base de donnée si les mots de passe matchent, en renvoyant un bool
 
-- Créez une route **POST** `/singin-jwt`
+- Créez une route **POST** `/signin-jwt`
   - Prend un body contenant l'`email` et le `password` de l'utilisateur
   - Si les identifiants matchent, renvoie un token contenant le body signé reçu
   - Si aucun message n'est donné ou que les identifiants ne matchent pas
