@@ -133,7 +133,7 @@ Les [sources](https://github.com/PoCInnovation/Pool2021/tree/master/Software/day
 
 À l'issue de cet exercice, vous devrez obtenir le résultat suivant :
 
-![archi micro-services](../../.github/assets/software-day4-exo4-archi.png)
+![archi micro-services](https://github.com/PoCInnovation/SoftwarePool2021/blob/master/.github/assets/software-day4-exo4-archi.png)
 
 Pour cela, vous devrez réaliser :
  - Un Dockerfile pour votre Backend
