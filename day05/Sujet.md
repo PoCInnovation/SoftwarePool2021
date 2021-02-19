@@ -57,7 +57,7 @@ Tout d'abord, créez un nouveau dossier `message` dans lequel vous allez faire u
 
 > :bulb: Le `x` de `.tsx` permet d'identifier les fichiers qui sont spécialement des composants react.
 
-Dans le fichier `index.tsx`, créer un composant fonctionnel appelé `Message` avec les propriétés suivantes :
+Dans le fichier `src/components/message/index.tsx`, créer un composant fonctionnel appelé `Message` avec les propriétés suivantes :
 
 - `imgProfileUrl` : L'URL de l'image, elle servira à afficher la photo de profil de la personne ayant envoyé un message.
 - `messageId`: L'Id du message, celui-ci ne sera pas utilisé ici
