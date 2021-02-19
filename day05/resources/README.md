@@ -10,7 +10,9 @@ Launch docker-compose
 docker-compose up -d --build
 ```
 
-> :warning: Si vous n'avez pas `direnv allow`, faites la commande `source .envrc` pour charger l'environnement
+> :warning: If you don't have `direnv allow`, tip the command `source .envrc` to load your environment and then retry the doceker-compose
+
+The backend only allow request from `http://127.0.0.1:3000` and `http://localhost:3000` but keep in mind that the backend can set cookie on your browser if your front run on `http://localhost:3000`
 
 ## Entities
 
