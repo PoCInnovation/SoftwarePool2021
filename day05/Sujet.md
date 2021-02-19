@@ -90,7 +90,7 @@ Vous pouvez maintenant afficher votre composant sur la WebApp. Vous devriez voir
 
 Néanmoins votre composant doit maintenant être stylisé grâce au css. Rendez le design avec un bel arrière-plan, une photo de profil arrondie, une jolie police d'écriture, vous pouvez vous inspirer de Discord par exemple :).
 
-Pour ajouter du CSS, codez dans votre fichier `src/message/index.css` et regardez comment l'importer dans votre fichier `src/message/index.tsx` en vous inspirant de `src.index.tsx`
+Pour ajouter du CSS, codez dans votre fichier `src/components/message/index.css` et regardez comment l'importer dans votre fichier `src/components/message/index.tsx` en vous inspirant de `src/index.tsx`
 
 > Le mode d'affichage `flex` peut être très utile pour organiser proprement vos composants.
 
@@ -123,7 +123,7 @@ Vous allez maintenant communiquer avec une [API](./resources) afin de récupére
 
 > :bulb: L'API se trouve dans le dossier ressources, lisez la [documentation](./resources/README.md) pour apprendre à l'utiliser.
 >
-> N'hésitez pas à tester l'API avec Postman afin de comprendre son comportement. 
+> N'hésitez pas à tester l'API avec Postman afin de comprendre son comportement.
 
 **Attention ! Quand vous envoyer une requête à l'API, assurez-vous d'avoir bien mis en host `127.0.0.1` dans l'url de votre requête, si vous passez par `localhost`, votre navigateur ne pourra pas set les cookies.**
 
