@@ -30,7 +30,7 @@ Vous allez maintenant retirer toutes les parties inutiles de l'application.
 Supprimez tous les fichiers dans `src` sauf `index.css` et `index.tsx`. Supprimez tout le contenu de `index.css` et changez le contenu de `index.tsx` par:
 
 ```tsx
-import React from "Software/day05/Subject";
+import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
