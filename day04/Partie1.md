@@ -126,7 +126,7 @@ Vous avez vu comment Dockeriser une application, il est temps de passer à la vi
 
 L'objectif est de dockeriser cet ensemble d'applications.
 
-Les [sources](https://github.com/PoCInnovation/Pool2021/tree/master/Software/day04/resources/part1-exo02) sont composées de :
+Les [sources](https://github.com/PoCInnovation/SoftwarePool2021/tree/master/day04/resources/part1-exo02) sont composées de :
  - Une base de données postgres (à lancer dans un container)
  - Une API en Nestjs
  - Une webapp en React
